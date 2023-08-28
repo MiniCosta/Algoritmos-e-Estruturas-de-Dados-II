@@ -97,26 +97,30 @@ class AVLTree:
         if not node:
             return
         
+        # Convert the prefix and node key to lowercase
+        prefix = prefix.lower()
+        node_key = node.key.lower()
+        
         # If the node's key starts with the prefix, add it to the results list
-        if node.key.startswith(prefix):
+        if node_key.startswith(prefix):
             results.append(node.key)
         
-        # Recursive search in the left subtree (if necessary)
-        if node.key >= prefix:
+        # Stop searching if the node key is lexicographically greater than the prefix
+        if node_key >= prefix:
             self._find_words_with_prefix(node.left, prefix, results)
         
-        # Recursive search in the right subtree
+        # Continue searching in the right subtree
         self._find_words_with_prefix(node.right, prefix, results)
 
-# Function to extract unique words from a text file and remove punctuation
+# Function to extract unique words from a text file, remove punctuation, and convert to lowercase
 def extract_unique_words(filename):
     unique_words = set()
     with open(filename, 'r') as file:
         for line in file:
             words = line.strip().split()
             for word in words:
-                # Use regular expression to remove punctuation from the start and end of the word
-                cleaned_word = re.sub(r'^\W+|\W+$', '', word)
+                # Use regular expression to remove punctuation and convert to lowercase
+                cleaned_word = re.sub(r'[^a-zA-Z]', '', word).lower()
                 if cleaned_word:
                     unique_words.add(cleaned_word)
     return unique_words
