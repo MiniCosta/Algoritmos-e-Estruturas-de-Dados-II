@@ -1,4 +1,4 @@
-<a href=“https://www.loom.com/share/89f11c49cf3645e899c1cbf113dfbfab?sid=e6f412ca-d3bc-4ee7-a2f3-2409f7e7641a“>Link do Vídeo</a>
+[Link do vídeo](https://www.loom.com/share/89f11c49cf3645e899c1cbf113dfbfab?sid=12ad7285-9085-4d47-8894-d1f6ff76f914)
 
 **SISTEMA DE AUTOCOMPLETAR PALAVRAS**
 
