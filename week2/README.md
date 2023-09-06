@@ -4,7 +4,7 @@
 
 **INTRODUÇÃO**
 
-Esse projeto tem o objetivo de criar um programa capaz de receber um input de texto do usuário e buscar palavras que comecem com essa entrada, bem como gerar uma discussão sobre desempenho de algoritmos.
+Esse projeto tem o objetivo de criar um programa capaz de receber um input de texto do usuário e buscar palavras que comecem com essa entrada usando árvores AVL e python, bem como gerar uma discussão sobre o desempenho desse algoritmo.
 
 **METODOLOGIA**
 
