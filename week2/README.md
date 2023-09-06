@@ -1,4 +1,4 @@
-<a href=“google.com“>Link do Vídeo</a>
+<a href=“[google.com](https://www.loom.com/share/89f11c49cf3645e899c1cbf113dfbfab?sid=e6f412ca-d3bc-4ee7-a2f3-2409f7e7641a)“>Link do Vídeo</a>
 
 **SISTEMA DE AUTOCOMPLETAR PALAVRAS**
 
@@ -8,7 +8,7 @@ Esse projeto tem o objetivo de criar um programa capaz de receber um input de te
 
 **METODOLOGIA**
 
-Com o auxílio do GPT-3.5, foi possível criar o programa 'search.py', o qual é capaz de instanciar uma Árvore AVL e incorporar o corpus (banco de textos usado como referência), além de possuir a função de busca. O corpus usado é composto pelas obras "Crime e Castigo" e "Os Demônios" de Fiódor Dostoiévski, em inglês, obtidos através do Projeto Gutenberg.
+Com o auxílio do GPT-3.5, foi possível criar o programa 'search.py', o qual é capaz de instanciar uma Árvore AVL e incorporar o corpus (banco de textos usado como referência), além de possuir a função de busca. O corpus usado é composto pelas obras "Crime e Castigo" e "Os Demônios" de Fiódor Dostoiévski, em inglês, obtidos através do <a href="https://www.gutenberg.org/">Projeto Gutenberg.</a>
 
 **ANÁLISE DE DESEMPENHO**
 
@@ -55,6 +55,5 @@ Espaço em Memória: O tamanho do corpus também afeta o espaço em memória nec
 A árvore AVL tem um melhor desempenho em termos de altura da árvore e tempo de busca, mantendo uma altura balanceada.
 Uma lista simples é mais eficiente em termos de tempo de inserção no final, mas pior em termos de busca.
 A árvore binária de busca não balanceada pode ter um desempenho semelhante ao de uma lista no pior caso, a menos que seja mantida balanceada.
-A escolha entre essas estruturas de dados depende das necessidades específicas do seu aplicativo. Se você precisa de um desempenho consistente para inserção e busca, a árvore AVL é uma boa escolha. Se a inserção no final da lista é uma operação comum e a busca não é crítica, uma lista simples pode ser suficiente. A árvore binária de busca não balanceada é menos comum, pois seu desempenho pode variar amplamente dependendo da distribuição dos dados.
 
 Paralelamente, o tamanho do corpus afeta o desempenho da árvore AVL principalmente em termos de tempo de inserção e altura da árvore. Para garantir um desempenho eficiente, é importante manter a árvore balanceada, especialmente se você estiver lidando com grandes conjuntos de dados. Isso pode ser alcançado através da utilização de técnicas adequadas de inserção, como inserção aleatória ou rebalanceamento periódico da árvore. Além disso, ao lidar com grandes corpora, pode ser útil considerar outras estruturas de dados, dependendo dos requisitos específicos do seu aplicativo, como estruturas de hash ou índices invertidos.
