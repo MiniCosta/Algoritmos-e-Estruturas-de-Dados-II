@@ -1,4 +1,4 @@
-[Link do vídeo]()
+[Link do vídeo](https://www.loom.com/share/973a5f2ec90c4c9d81fa28e0a87f9452?sid=bf1e8701-e36f-4aa4-948d-278dff8fe1cd)
 
 **Construindo Consultas Rápidas em um CSV**
 
