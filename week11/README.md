@@ -1,4 +1,4 @@
-Link
+[Link do vídeo](https://www.loom.com/share/d0fc6e98a6d14592abfd934bb8794f93?sid=2c3ba8c8-20de-4389-ac2a-1c56e79aa713)
 
 **Grafos de Páginas do Wikipedia**
 
